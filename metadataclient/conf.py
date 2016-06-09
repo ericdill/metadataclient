@@ -60,5 +60,5 @@ def load_configuration(name, prefix, fields):
                        "file or environmental variable.".format(missing))
     return config
 
-connection_config = load_configuration('metadataclient', 'MDS',
-                                       ['host', 'port', 'protocol'])
+connection_config = load_configuration('metadataclient', 'MDC',
+                                       ['host', 'port', 'protocol', 'timezone'])
